@@ -10,10 +10,10 @@ def main():
     elif m == 1:
         print("{} argument:".format(m))
         print("{}: ".format(m) + argv[1])
-    else:
+    elif m > 1:
         print("{} arguments:".format(m))
-        for arg in range(1, len(argv)):
-            print("{}: {}".format(m, argv[arg]))
+        for a in range(1, len(argv)):
+            print("{}: {}".format(m, argv[a]))
 
 
 if __name__ == "__main__":

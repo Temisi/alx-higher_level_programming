@@ -4,11 +4,11 @@ if __name__ == "__main__":
     m = len(sys.argv) - 1
 
     if m == 0:
-        print("{} arguments.".format(i))
+        print("{} arguments.".format(m))
     elif m == 1:
-        print("{} argument:".format(i))
+        print("{} argument:".format(m))
     else:
-        print("{} arguments:".format(i))
+        print("{} arguments:".format(m))
 
     if m >= 1:
         m = 0
